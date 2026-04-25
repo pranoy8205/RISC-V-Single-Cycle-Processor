@@ -45,10 +45,11 @@ This project demonstrates the design and simulation of a RISC-V CPU datapath and
 
 ## How to Run
 
-1. Compile all Verilog files
-2. Update the program.mem file with the hexcode of your instructions
-3. Run simulation using Icarus Verilog
-4. Open waveform using GTKWave
+1. Update the program.mem file with the hexcode of your instructions
+2. Compile all verilog files using the command "iverilog -o sim_out Single_Cycle_top_tb.v top_cpu_single_core.v"
+3. Then enter the next command "vvp sim_out", this will create a .vcd file to view the waveform
+4. To view this waveform run the command "gtkwave top_cpu_single_core.vcd" , 
+5. Now add the signals from the left pane to view the waveform
 
 ## Results
 
