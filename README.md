@@ -39,9 +39,9 @@ This project demonstrates the design and simulation of a RISC-V CPU datapath and
 
 ## Folder Structure
 
-.v/ → Design source and testbench files
-.mem/ → Memory initialization files
-.vcd/ → Simulation outputs
+* .v/ → Design source and testbench files
+* .mem/ → Memory initialization files
+* .vcd/ → Simulation outputs
 
 ## How to Run
 
